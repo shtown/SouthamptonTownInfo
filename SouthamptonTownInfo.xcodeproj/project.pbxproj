@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C3280501F2FB66700950D46 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C32804F1F2FB66700950D46 /* WebView.swift */; };
 		0C403DAD1F057AC800D08C5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C403DAC1F057AC800D08C5A /* AppDelegate.swift */; };
 		0C403DAF1F057AC800D08C5A /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C403DAE1F057AC800D08C5A /* RootViewController.swift */; };
 		0C403DB11F057AC800D08C5A /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C403DB01F057AC800D08C5A /* DataViewController.swift */; };
 		0C403DB31F057AC800D08C5A /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C403DB21F057AC800D08C5A /* ModelController.swift */; };
 		0C403DB61F057AC800D08C5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C403DB41F057AC800D08C5A /* Main.storyboard */; };
 		0C403DB81F057AC800D08C5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C403DB71F057AC800D08C5A /* Assets.xcassets */; };
-		0C403DBB1F057AC800D08C5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C403DB91F057AC800D08C5A /* LaunchScreen.storyboard */; };
+		0C422BE71FC4D4B2007D8C03 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C422BE61FC4D4B2007D8C03 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C32804F1F2FB66700950D46 /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		0C403DA91F057AC800D08C5A /* SouthamptonTownInfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SouthamptonTownInfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C403DAC1F057AC800D08C5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0C403DAE1F057AC800D08C5A /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
@@ -24,8 +26,8 @@
 		0C403DB21F057AC800D08C5A /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
 		0C403DB51F057AC800D08C5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0C403DB71F057AC800D08C5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0C403DBA1F057AC800D08C5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C403DBC1F057AC800D08C5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C422BE61FC4D4B2007D8C03 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +63,12 @@
 				0C403DAC1F057AC800D08C5A /* AppDelegate.swift */,
 				0C403DAE1F057AC800D08C5A /* RootViewController.swift */,
 				0C403DB01F057AC800D08C5A /* DataViewController.swift */,
+				0C32804F1F2FB66700950D46 /* WebView.swift */,
 				0C403DB21F057AC800D08C5A /* ModelController.swift */,
 				0C403DB41F057AC800D08C5A /* Main.storyboard */,
 				0C403DB71F057AC800D08C5A /* Assets.xcassets */,
-				0C403DB91F057AC800D08C5A /* LaunchScreen.storyboard */,
 				0C403DBC1F057AC800D08C5A /* Info.plist */,
+				0C422BE61FC4D4B2007D8C03 /* Launch Screen.storyboard */,
 			);
 			path = SouthamptonTownInfo;
 			sourceTree = "<group>";
@@ -97,19 +100,20 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 1160;
 				ORGANIZATIONNAME = TOS;
 				TargetAttributes = {
 					0C403DA81F057AC800D08C5A = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = NB6CSU478G;
+						LastSwiftMigration = 1160;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
 			buildConfigurationList = 0C403DA41F057AC800D08C5A /* Build configuration list for PBXProject "SouthamptonTownInfo" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -130,8 +134,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C403DBB1F057AC800D08C5A /* LaunchScreen.storyboard in Resources */,
 				0C403DB81F057AC800D08C5A /* Assets.xcassets in Resources */,
+				0C422BE71FC4D4B2007D8C03 /* Launch Screen.storyboard in Resources */,
 				0C403DB61F057AC800D08C5A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C403DAF1F057AC800D08C5A /* RootViewController.swift in Sources */,
+				0C3280501F2FB66700950D46 /* WebView.swift in Sources */,
 				0C403DB31F057AC800D08C5A /* ModelController.swift in Sources */,
 				0C403DB11F057AC800D08C5A /* DataViewController.swift in Sources */,
 				0C403DAD1F057AC800D08C5A /* AppDelegate.swift in Sources */,
@@ -161,14 +166,6 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		0C403DB91F057AC800D08C5A /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0C403DBA1F057AC800D08C5A /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -176,20 +173,30 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -226,20 +233,30 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -274,7 +291,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = gov.southamptontownny.SouthamptonTownInfo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -287,7 +305,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = gov.southamptontownny.SouthamptonTownInfo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -310,6 +329,7 @@
 				0C403DC11F057AC800D08C5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

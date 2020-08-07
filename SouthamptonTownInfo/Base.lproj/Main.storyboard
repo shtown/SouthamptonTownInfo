@@ -1,14 +1,18 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="703-4V-yAM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="703-4V-yAM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Root View Controller-->
         <scene sceneID="clB-vc-fyl">
             <objects>
-                <viewController id="703-4V-yAM" customClass="RootViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="703-4V-yAM" customClass="RootViewController" customModule="SouthamptonTownInfo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="I7W-xW-C47"/>
                         <viewControllerLayoutGuide type="bottom" id="IfR-02-kHw"/>
@@ -16,52 +20,116 @@
                     <view key="view" contentMode="scaleToFill" id="502-Ir-ELC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.60000002379999995" green="0.40000000600000002" blue="0.20000000300000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q3h-pU-vEd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-101" y="-243"/>
+            <point key="canvasLocation" x="-345" y="-463"/>
         </scene>
         <!--Data View Controller-->
         <scene sceneID="snT-py-3hH">
             <objects>
-                <viewController storyboardIdentifier="DataViewController" id="S4R-Ja-viH" customClass="DataViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DataViewController" id="S4R-Ja-viH" customClass="DataViewController" customModule="SouthamptonTownInfo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="fXf-Jd-eTc"/>
-                        <viewControllerLayoutGuide type="bottom" id="EPS-s9-h4K"/>
+                        <viewControllerLayoutGuide type="top" id="fOm-Hx-reS"/>
+                        <viewControllerLayoutGuide type="bottom" id="qs8-OB-N9M"/>
                     </layoutGuides>
-                    <view key="view" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="ZwX-cT-FIQ">
+                    <view key="view" contentMode="scaleToFill" id="eD6-Zn-mw9">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="cF2-Le-7mQ">
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s1b-V9-EN7">
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="vTt-dc-lDj">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="YpC-Bu-nb3">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="202.5"/>
+                                        <subviews>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SOS" translatesAutoresizingMaskIntoConstraints="NO" id="SwK-7R-tNG">
+                                                <rect key="frame" x="0.0" y="0.0" width="187.5" height="202.5"/>
+                                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                            </imageView>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PubInfo" translatesAutoresizingMaskIntoConstraints="NO" id="GEZ-Wh-C7J">
+                                                <rect key="frame" x="187.5" y="0.0" width="187.5" height="202.5"/>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="NF3-wP-zD4">
+                                        <rect key="frame" x="0.0" y="222.5" width="375" height="202"/>
+                                        <subviews>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ePortal" translatesAutoresizingMaskIntoConstraints="NO" id="qyf-Kq-9XN">
+                                                <rect key="frame" x="0.0" y="0.0" width="187.5" height="202"/>
+                                            </imageView>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ISP" translatesAutoresizingMaskIntoConstraints="NO" id="Okv-Ox-5FK">
+                                                <rect key="frame" x="187.5" y="0.0" width="187.5" height="202"/>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="r9X-Yz-Ryb">
+                                        <rect key="frame" x="0.0" y="444.5" width="375" height="202.5"/>
+                                        <subviews>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="historic" translatesAutoresizingMaskIntoConstraints="NO" id="NmW-Nu-ySX">
+                                                <rect key="frame" x="0.0" y="0.0" width="187.5" height="202.5"/>
+                                            </imageView>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="evacZones" translatesAutoresizingMaskIntoConstraints="NO" id="ERQ-Oe-IqE">
+                                                <rect key="frame" x="187.5" y="0.0" width="187.5" height="202.5"/>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
                         </subviews>
-                        <color key="backgroundColor" red="0.97826086960000003" green="0.91848131079999995" blue="0.73914263440000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="s1b-V9-EN7" secondAttribute="trailing" constant="20" symbolic="YES" id="333-Jl-G0r"/>
-                            <constraint firstItem="s1b-V9-EN7" firstAttribute="leading" secondItem="ZwX-cT-FIQ" secondAttribute="leading" constant="20" symbolic="YES" id="CIC-qa-9gW"/>
-                            <constraint firstItem="cF2-Le-7mQ" firstAttribute="leading" secondItem="ZwX-cT-FIQ" secondAttribute="leading" constant="20" symbolic="YES" id="PnF-O8-Bso"/>
-                            <constraint firstAttribute="bottom" secondItem="s1b-V9-EN7" secondAttribute="bottom" constant="20" symbolic="YES" id="Xg4-Xc-7kb"/>
-                            <constraint firstAttribute="trailing" secondItem="cF2-Le-7mQ" secondAttribute="trailing" constant="20" symbolic="YES" id="cCk-mG-gz5"/>
-                            <constraint firstItem="s1b-V9-EN7" firstAttribute="top" secondItem="cF2-Le-7mQ" secondAttribute="bottom" constant="8" symbolic="YES" id="kQJ-gh-hu4"/>
-                            <constraint firstItem="cF2-Le-7mQ" firstAttribute="top" secondItem="ZwX-cT-FIQ" secondAttribute="top" constant="20" symbolic="YES" id="zem-Jm-uYh"/>
+                            <constraint firstItem="vTt-dc-lDj" firstAttribute="top" secondItem="fOm-Hx-reS" secondAttribute="bottom" id="eAe-qs-SgD"/>
+                            <constraint firstItem="qs8-OB-N9M" firstAttribute="top" secondItem="vTt-dc-lDj" secondAttribute="bottom" id="eqm-EP-BU5"/>
+                            <constraint firstItem="vTt-dc-lDj" firstAttribute="leading" secondItem="eD6-Zn-mw9" secondAttribute="leading" id="pFG-8K-aNF"/>
+                            <constraint firstAttribute="trailing" secondItem="vTt-dc-lDj" secondAttribute="trailing" id="v6d-mV-5Ad"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <outlet property="dataLabel" destination="cF2-Le-7mQ" id="3EH-BK-JV6"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GmD-Rr-ZGN" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="A7L-oB-WPq">
+                    <connections>
+                        <action selector="sosClicked:" destination="S4R-Ja-viH" id="Ibw-9C-Ekn"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="bXK-Os-x4a">
+                    <connections>
+                        <action selector="infoCenterClicked:" destination="S4R-Ja-viH" id="Tpd-XC-O5r"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="g8Z-Pp-HGO">
+                    <connections>
+                        <action selector="ePortalClicked:" destination="S4R-Ja-viH" id="9CX-qi-Csp"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="zmg-HN-j7L">
+                    <connections>
+                        <action selector="salesMapClicked:" destination="S4R-Ja-viH" id="601-4S-QMB"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="HGs-pO-uDI">
+                    <connections>
+                        <action selector="historicMapClicked:" destination="S4R-Ja-viH" id="1oV-O8-zUX"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="dza-IV-hQq">
+                    <connections>
+                        <action selector="evacZonesClicked:" destination="S4R-Ja-viH" id="5co-oz-asD"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="597" y="-243"/>
+            <point key="canvasLocation" x="388" y="-463"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="ISP" width="125" height="125"/>
+        <image name="PubInfo" width="125" height="125"/>
+        <image name="SOS" width="125" height="125"/>
+        <image name="ePortal" width="125" height="125"/>
+        <image name="evacZones" width="125" height="125"/>
+        <image name="historic" width="125" height="125"/>
+    </resources>
 </document>
