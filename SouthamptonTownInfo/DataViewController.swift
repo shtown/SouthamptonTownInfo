@@ -8,19 +8,28 @@
 
 import UIKit
 import SafariServices
+import EasyTipView
 
 class DataViewController: UIViewController {
 
    // @IBOutlet weak var dataLabel: UILabel!
     var dataObject: String = ""
- 
-
+    var preferences = EasyTipView.Preferences()
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        preferences.drawing.font = UIFont(name: "Futura-Medium", size: 13)!
+        preferences.drawing.foregroundColor = UIColor.white
+        preferences.drawing.backgroundColor = UIColor(hue:0.46, saturation:0.99, brightness:0.6,alpha:1)
+        preferences.drawing.arrowPosition = EasyTipView.ArrowPosition.top
+           
     }
 
 
-    
+ 
+  
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -30,18 +39,19 @@ class DataViewController: UIViewController {
         super.viewWillAppear(animated)
         //self.dataLabel!.text = dataObject 
     }
-
     
-    @IBAction func sosClicked(_ sender: Any) {
+    
+    
+    @IBAction func sosClicked(_ gesture: UITapGestureRecognizer) {
         
         let url = URL(string: "https://gis.southamptontownny.gov/sos")
         let safariVC: SFSafariViewController = SFSafariViewController(url: url!)
         
         self.present(safariVC, animated: true, completion: nil)    }
-    
-   @IBAction func infoCenterClicked(_ sender: Any){
-        
-        
+     
+    @IBAction func infoCenterClicked(_ gesture: UITapGestureRecognizer){
+
+        //EasyTipView.show(forView: self.PubInfo, text: "My Tool Tip", preferences: preferences, delegate:PubInfo)
         let url = URL(string: "https://gis.southamptontownny.gov/infocenter")
         let safariVC: SFSafariViewController = SFSafariViewController(url: url!)
         
@@ -50,7 +60,7 @@ class DataViewController: UIViewController {
     }
  
     
-    @IBAction func ePortalClicked(_ sender: Any) {
+    @IBAction func ePortalClicked(_ gesture: UITapGestureRecognizer) {
     
         let url = URL(string: "https:/eportal.southamptontownny.gov")
         let safariVC: SFSafariViewController = SFSafariViewController(url: url!)
@@ -58,15 +68,15 @@ class DataViewController: UIViewController {
         self.present(safariVC, animated: true, completion: nil)
     }
 
-    @IBAction func salesMapClicked(_ sender: Any) {
+    @IBAction func salesMapClicked(_ gesture: UITapGestureRecognizer) {
      
-        let url = URL(string: "https://gis.southamptontownnygov/sales")
+          let url = URL(string: "https://gis.southamptontownnygov/sales")
         let safariVC: SFSafariViewController = SFSafariViewController(url: url!)
         
         self.present(safariVC, animated: true, completion: nil)
     }
     
-    @IBAction func historicMapClicked(_ sender: Any) {
+    @IBAction func historicMapClicked(_ gesture: UITapGestureRecognizer) {
     
         let url = URL(string: "https://gis.southamptontownny.gov/historic")
         let safariVC: SFSafariViewController = SFSafariViewController(url: url!)
@@ -74,7 +84,7 @@ class DataViewController: UIViewController {
         self.present(safariVC, animated: true, completion: nil)
     }
     
-    @IBAction func evacZonesClicked(_ sender: Any) {
+    @IBAction func evacZonesClicked(_ gesture: UITapGestureRecognizer) {
         
         let url = URL(string: "https://gis.southamptontownny.gov/evaclocator")
         let safariVC: SFSafariViewController = SFSafariViewController(url: url!)
