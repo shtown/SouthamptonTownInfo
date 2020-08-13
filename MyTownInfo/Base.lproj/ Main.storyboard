@@ -110,6 +110,9 @@
                             <constraint firstAttribute="trailing" secondItem="vTt-dc-lDj" secondAttribute="trailing" id="v6d-mV-5Ad"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="infocenter" destination="GEZ-Wh-C7J" id="MxY-Hx-cNX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GmD-Rr-ZGN" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="gzn-Eo-WNH">

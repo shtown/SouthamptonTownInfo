@@ -1,0 +1,6 @@
+framework module Pods_MyTownInfo {
+  umbrella header "Pods-MyTownInfo-umbrella.h"
+
+  export *
+  module * { export * }
+}

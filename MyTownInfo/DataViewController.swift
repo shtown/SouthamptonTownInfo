@@ -16,6 +16,7 @@ class DataViewController: UIViewController {
     var dataObject: String = ""
     var preferences = EasyTipView.Preferences()
     
+    @IBOutlet var infocenter: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,7 +25,9 @@ class DataViewController: UIViewController {
         preferences.drawing.foregroundColor = UIColor.white
         preferences.drawing.backgroundColor = UIColor(hue:0.46, saturation:0.99, brightness:0.6,alpha:1)
         preferences.drawing.arrowPosition = EasyTipView.ArrowPosition.top
-           
+        
+        preferences.positioning.bubbleHInset = CGFloat(1) 
+        preferences.positioning.bubbleVInset = CGFloat(1)
     }
 
 
@@ -48,15 +51,15 @@ class DataViewController: UIViewController {
         let safariVC: SFSafariViewController = SFSafariViewController(url: url!)
         
         self.present(safariVC, animated: true, completion: nil)    }
+    
+    
      
-    @IBAction func infoCenterClicked(_ gesture: UITapGestureRecognizer){
+    @IBAction func infoCenterClicked(_ gesture: UIGestureRecognizer){
 
-        //EasyTipView.show(forView: self.PubInfo, text: "My Tool Tip", preferences: preferences, delegate:PubInfo)
         let url = URL(string: "https://gis.southamptontownny.gov/infocenter")
         let safariVC: SFSafariViewController = SFSafariViewController(url: url!)
-        
+            
         self.present(safariVC, animated: true, completion: nil)
-    
     }
  
     
@@ -70,7 +73,7 @@ class DataViewController: UIViewController {
 
     @IBAction func salesMapClicked(_ gesture: UITapGestureRecognizer) {
      
-          let url = URL(string: "https://gis.southamptontownnygov/sales")
+          let url = URL(string: "https://gis.southamptontownny.gov/sales")
         let safariVC: SFSafariViewController = SFSafariViewController(url: url!)
         
         self.present(safariVC, animated: true, completion: nil)

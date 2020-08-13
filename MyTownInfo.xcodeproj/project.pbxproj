@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C2F748024E5987A0069155C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C2F747F24E5987A0069155C /* Default-568h@2x.png */; };
 		0C3280501F2FB66700950D46 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C32804F1F2FB66700950D46 /* WebView.swift */; };
 		0C403DAD1F057AC800D08C5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C403DAC1F057AC800D08C5A /* AppDelegate.swift */; };
 		0C403DAF1F057AC800D08C5A /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C403DAE1F057AC800D08C5A /* RootViewController.swift */; };
@@ -15,12 +16,13 @@
 		0C403DB61F057AC800D08C5A /*  Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C403DB41F057AC800D08C5A /*  Main.storyboard */; };
 		0C403DB81F057AC800D08C5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C403DB71F057AC800D08C5A /* Assets.xcassets */; };
 		0C422BE71FC4D4B2007D8C03 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C422BE61FC4D4B2007D8C03 /* Launch Screen.storyboard */; };
-		76ED7EBE89FE59B82662D530 /* Pods_SouthamptonTownInfo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22716DA48DDCBEEF1AEB02C5 /* Pods_SouthamptonTownInfo.framework */; };
+		483ACBE32C9D03065FC780E4 /* Pods_MyTownInfo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 437AE0588E94B2C1964B7748 /* Pods_MyTownInfo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C2F747F24E5987A0069155C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		0C32804F1F2FB66700950D46 /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
-		0C403DA91F057AC800D08C5A /* SouthamptonTownInfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SouthamptonTownInfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C403DA91F057AC800D08C5A /* MyTownInfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTownInfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C403DAC1F057AC800D08C5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0C403DAE1F057AC800D08C5A /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		0C403DB01F057AC800D08C5A /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
@@ -29,9 +31,9 @@
 		0C403DB71F057AC800D08C5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C403DBC1F057AC800D08C5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C422BE61FC4D4B2007D8C03 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
-		22716DA48DDCBEEF1AEB02C5 /* Pods_SouthamptonTownInfo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SouthamptonTownInfo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		76A0E9AA6D1C8369C53255AE /* Pods-SouthamptonTownInfo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SouthamptonTownInfo.release.xcconfig"; path = "Target Support Files/Pods-SouthamptonTownInfo/Pods-SouthamptonTownInfo.release.xcconfig"; sourceTree = "<group>"; };
-		E1E03AE52D86F51E492914DE /* Pods-SouthamptonTownInfo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SouthamptonTownInfo.debug.xcconfig"; path = "Target Support Files/Pods-SouthamptonTownInfo/Pods-SouthamptonTownInfo.debug.xcconfig"; sourceTree = "<group>"; };
+		0CA25BB760E2D5BB478C9975 /* Pods-MyTownInfo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTownInfo.debug.xcconfig"; path = "Target Support Files/Pods-MyTownInfo/Pods-MyTownInfo.debug.xcconfig"; sourceTree = "<group>"; };
+		437AE0588E94B2C1964B7748 /* Pods_MyTownInfo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyTownInfo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71106D25BB4CB0DCA09F9445 /* Pods-MyTownInfo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTownInfo.release.xcconfig"; path = "Target Support Files/Pods-MyTownInfo/Pods-MyTownInfo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,7 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76ED7EBE89FE59B82662D530 /* Pods_SouthamptonTownInfo.framework in Frameworks */,
+				483ACBE32C9D03065FC780E4 /* Pods_MyTownInfo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,22 +51,23 @@
 		0C403DA01F057AC800D08C5A = {
 			isa = PBXGroup;
 			children = (
-				0C403DAB1F057AC800D08C5A /* SouthamptonTownInfo */,
+				0C2F747F24E5987A0069155C /* Default-568h@2x.png */,
+				0C403DAB1F057AC800D08C5A /* MyTownInfo */,
 				0C403DAA1F057AC800D08C5A /* Products */,
 				1407F0B170D50FC042C0DBBE /* Pods */,
-				75A4E5B04C205A2E450F488B /* Frameworks */,
+				71367D3A000ADBF9CB268114 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		0C403DAA1F057AC800D08C5A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0C403DA91F057AC800D08C5A /* SouthamptonTownInfo.app */,
+				0C403DA91F057AC800D08C5A /* MyTownInfo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0C403DAB1F057AC800D08C5A /* SouthamptonTownInfo */ = {
+		0C403DAB1F057AC800D08C5A /* MyTownInfo */ = {
 			isa = PBXGroup;
 			children = (
 				0C403DAC1F057AC800D08C5A /* AppDelegate.swift */,
@@ -77,22 +80,22 @@
 				0C403DBC1F057AC800D08C5A /* Info.plist */,
 				0C422BE61FC4D4B2007D8C03 /* Launch Screen.storyboard */,
 			);
-			path = SouthamptonTownInfo;
+			path = MyTownInfo;
 			sourceTree = "<group>";
 		};
 		1407F0B170D50FC042C0DBBE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E1E03AE52D86F51E492914DE /* Pods-SouthamptonTownInfo.debug.xcconfig */,
-				76A0E9AA6D1C8369C53255AE /* Pods-SouthamptonTownInfo.release.xcconfig */,
+				0CA25BB760E2D5BB478C9975 /* Pods-MyTownInfo.debug.xcconfig */,
+				71106D25BB4CB0DCA09F9445 /* Pods-MyTownInfo.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		75A4E5B04C205A2E450F488B /* Frameworks */ = {
+		71367D3A000ADBF9CB268114 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				22716DA48DDCBEEF1AEB02C5 /* Pods_SouthamptonTownInfo.framework */,
+				437AE0588E94B2C1964B7748 /* Pods_MyTownInfo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -100,23 +103,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0C403DA81F057AC800D08C5A /* SouthamptonTownInfo */ = {
+		0C403DA81F057AC800D08C5A /* MyTownInfo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0C403DBF1F057AC800D08C5A /* Build configuration list for PBXNativeTarget "SouthamptonTownInfo" */;
+			buildConfigurationList = 0C403DBF1F057AC800D08C5A /* Build configuration list for PBXNativeTarget "MyTownInfo" */;
 			buildPhases = (
-				E3DB0E742AB5D4843FFE18CE /* [CP] Check Pods Manifest.lock */,
+				C04DF83E55FC0D18B7021F45 /* [CP] Check Pods Manifest.lock */,
 				0C403DA51F057AC800D08C5A /* Sources */,
 				0C403DA61F057AC800D08C5A /* Frameworks */,
 				0C403DA71F057AC800D08C5A /* Resources */,
-				EC183EBEF04F0E1628A17C32 /* [CP] Embed Pods Frameworks */,
+				BF12B2FEDEB19A7D3004186F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SouthamptonTownInfo;
+			name = MyTownInfo;
 			productName = SouthamptonTownInfo;
-			productReference = 0C403DA91F057AC800D08C5A /* SouthamptonTownInfo.app */;
+			productReference = 0C403DA91F057AC800D08C5A /* MyTownInfo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -137,7 +140,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0C403DA41F057AC800D08C5A /* Build configuration list for PBXProject "SouthamptonTownInfo" */;
+			buildConfigurationList = 0C403DA41F057AC800D08C5A /* Build configuration list for PBXProject "MyTownInfo" */;
 			compatibilityVersion = "Xcode 11.4";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -150,7 +153,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0C403DA81F057AC800D08C5A /* SouthamptonTownInfo */,
+				0C403DA81F057AC800D08C5A /* MyTownInfo */,
 			);
 		};
 /* End PBXProject section */
@@ -161,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C403DB81F057AC800D08C5A /* Assets.xcassets in Resources */,
+				0C2F748024E5987A0069155C /* Default-568h@2x.png in Resources */,
 				0C422BE71FC4D4B2007D8C03 /* Launch Screen.storyboard in Resources */,
 				0C403DB61F057AC800D08C5A /*  Main.storyboard in Resources */,
 			);
@@ -169,7 +173,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		E3DB0E742AB5D4843FFE18CE /* [CP] Check Pods Manifest.lock */ = {
+		BF12B2FEDEB19A7D3004186F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyTownInfo/Pods-MyTownInfo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyTownInfo/Pods-MyTownInfo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyTownInfo/Pods-MyTownInfo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C04DF83E55FC0D18B7021F45 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -184,28 +205,11 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SouthamptonTownInfo-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-MyTownInfo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EC183EBEF04F0E1628A17C32 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SouthamptonTownInfo/Pods-SouthamptonTownInfo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SouthamptonTownInfo/Pods-SouthamptonTownInfo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SouthamptonTownInfo/Pods-SouthamptonTownInfo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -353,17 +357,20 @@
 		};
 		0C403DC01F057AC800D08C5A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1E03AE52D86F51E492914DE /* Pods-SouthamptonTownInfo.debug.xcconfig */;
+			baseConfigurationReference = 0CA25BB760E2D5BB478C9975 /* Pods-MyTownInfo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NB6CSU478G;
-				INFOPLIST_FILE = SouthamptonTownInfo/Info.plist;
+				INFOPLIST_FILE = MyTownInfo/info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = gov.southamptontownny.SouthamptonTownInfo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = gov.southamptontownny.MyTownInfo;
+				PRODUCT_NAME = MyTownInfo;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 5.0;
 			};
@@ -371,17 +378,20 @@
 		};
 		0C403DC11F057AC800D08C5A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 76A0E9AA6D1C8369C53255AE /* Pods-SouthamptonTownInfo.release.xcconfig */;
+			baseConfigurationReference = 71106D25BB4CB0DCA09F9445 /* Pods-MyTownInfo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NB6CSU478G;
-				INFOPLIST_FILE = SouthamptonTownInfo/Info.plist;
+				INFOPLIST_FILE = MyTownInfo/info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = gov.southamptontownny.SouthamptonTownInfo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = gov.southamptontownny.MyTownInfo;
+				PRODUCT_NAME = MyTownInfo;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 5.0;
 			};
@@ -390,7 +400,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0C403DA41F057AC800D08C5A /* Build configuration list for PBXProject "SouthamptonTownInfo" */ = {
+		0C403DA41F057AC800D08C5A /* Build configuration list for PBXProject "MyTownInfo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0C403DBD1F057AC800D08C5A /* Debug */,
@@ -399,7 +409,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0C403DBF1F057AC800D08C5A /* Build configuration list for PBXNativeTarget "SouthamptonTownInfo" */ = {
+		0C403DBF1F057AC800D08C5A /* Build configuration list for PBXNativeTarget "MyTownInfo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0C403DC01F057AC800D08C5A /* Debug */,

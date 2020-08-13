@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_SouthamptonTownInfoVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_SouthamptonTownInfoVersionString[];
+FOUNDATION_EXPORT double Pods_MyTownInfoVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_MyTownInfoVersionString[];
 
